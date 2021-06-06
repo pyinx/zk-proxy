@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"go.uber.org/ratelimit"
+	"github.com/uber-go/atomic"
 	"golang.org/x/net/context"
 )
 
